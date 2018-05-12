@@ -1,0 +1,41 @@
+{
+  "manifest_version" : 2,
+  "name" : "Custom Web Launcher",
+  "short_name" : "Web Launcher",
+  "version" : "0.3",
+  "description" : "A Chrome new tab extension that can be customized each semester.",
+  "icons" : {
+    "128" : "128x128.png"
+  },
+  "browser_action" : {
+    "default_icon" : {
+      "16" : "rsz_n60-2stack-w_small.png"
+    },
+    "default_title" : "Custom Web Launcher"
+  },
+  "author" : "Denise Case and Doug Hawley",
+  "chrome_url_overrides" : {
+    "newtab" : "tab.html"
+  },
+  "file_system_provider_capabilities" : {
+    "configurable" : true,
+    "multiple_mounts" : true,
+    "source" : "network"
+  },
+  "incognito" : "spanning",
+  "offline_enabled" : true,
+  "omnibox" : {
+    "keyword" : "aString"
+  },
+  "optional_permissions" : [
+    "tabs"
+  ],
+  "permissions" : [
+    "storage",
+    "alarms",
+    "notifications",
+    "tabs",
+    "<all_urls>",
+    "http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1"
+  ]
+}

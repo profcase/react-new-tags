@@ -1,0 +1,71 @@
+body {
+  font-family: Verdana, sans-serif;
+  width: 90%;
+  margin: 0 5% 0 5%;
+}
+
+h1, p {
+  text-align: center;
+}
+
+main {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article, aside {
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* -------------- aside / requirements */
+
+aside {
+  flex: 1;
+  background-color: rgb(6, 221, 6);
+}
+
+aside>section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside>section>div {
+  background-color: white;
+  text-align: center;
+  line-height: 45px;
+  width: 60px;
+  margin: 5px;
+  -webkit-user-drag: element;
+  border-radius: 15px;
+}
+
+article {
+  flex: 3;
+  background-color: rgb(42, 73, 250);
+  color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article>section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: column;
+  max-width: 220px;
+}
+
+section>p {
+  background-color: yellow;
+  text-align: center;
+  line-height: 75px;
+  width: 200px;
+  margin: 20px;
+  -webkit-user-drag: element;
+}

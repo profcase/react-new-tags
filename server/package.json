@@ -1,0 +1,27 @@
+{
+  "name": "react-new-tags",
+  "version": "1.0.0",
+  "description": "Simple web server to run React client-side content",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/profcase/react-new-tags"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "webapp"
+  ],
+  "author": "Denise Case",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-force-https": "^1.0.0",
+    "fs": "0.0.1-security",
+    "http2": "^3.3.7",
+    "url": "^0.11.0"
+  }
+}
